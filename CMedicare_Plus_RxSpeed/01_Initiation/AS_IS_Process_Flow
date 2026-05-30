@@ -1,0 +1,64 @@
+# As-Is Process Flow
+## Prescription Fulfillment - Current State
+### Project RxSpeed - CMedicare Plus Company
+
+**Date:** May 26, 2026
+**Prepared by:** Cizen Bhatta, Lead Business Analyst
+
+> Fictional portfolio project. All details are synthetic.
+
+---
+
+## Purpose
+This document maps the current ("as-is") prescription fulfillment process to
+identify where delays accumulate. It distinguishes between bottlenecks proven
+by the baseline data analysis and those hypothesized from pharmacy domain
+knowledge that require further validation.
+
+---
+
+## Current Process Steps
+
+| Step | Activity | Owner |
+|------|----------|-------|
+| 1 | Prescription received (in-person, phone, e-script, app) | Technician |
+| 2 | Insurance verification & adjudication | Technician |
+| 3 | Drug Utilization Review (safety/interaction check) | Pharmacist |
+| 4 | Inventory check | Technician |
+| 5 | Filling (counting, labeling) | Technician |
+| 6 | Pharmacist verification (final check) | Pharmacist |
+| 7 | Patient counseling (if required) | Pharmacist |
+| 8 | Pickup & payment | Technician |
+| 9 | Prescription complete | — |
+
+---
+
+## Bottleneck Analysis: Data-Proven vs Hypothesized
+
+### Proven by Data (from baseline analysis)
+- Total wait times increased 59% over 24 months (19.2 → 30.6 min)
+- Peak-hour spikes occur at 11am-1pm and 5pm-7pm (up to 34 min)
+- Regional disparity: Midwest 30% slower than Southeast
+- Satisfaction collapses as total wait time rises (9.5 down to 3.4)
+
+### Hypothesized Root Causes (based on pharmacy domain knowledge)
+The baseline data measured total wait time but not step-level timing. The
+following are hypothesized bottlenecks requiring validation through additional
+data collection (step-level timestamps):
+
+1. **Insurance Verification (Step 2)** — Hypothesis: rejected claims cause rework
+2. **Pharmacist Verification (Step 6)** — Hypothesis: single-pharmacist constraint during peaks
+3. **Pickup & Payment (Step 8)** — Hypothesis: counter congestion at peak hours
+
+### Recommended Validation
+To confirm these hypotheses, the project would request step-level timestamp data
+(time entering and exiting each process stage), enabling a precise bottleneck
+analysis in a future phase.
+
+---
+
+## Key Problems With the Current State
+- No real-time visibility into where a prescription is stuck
+- Managers cannot see queue buildup until customers complain
+- Staffing is not aligned to the peak-hour demand revealed in the data
+- No early warning before wait times exceed target

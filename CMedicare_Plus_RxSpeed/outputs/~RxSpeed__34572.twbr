@@ -1,0 +1,2088 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='RxSpeed' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='prescriptions' inline='true' name='federated.006yzjh16393we121gbzo1m3ua8k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='prescriptions' name='textscan.1syziud15n6dyp19kv8qa1ck4h8f'>
+            <connection class='textscan' directory='S:/Projects for my portfolio/CMedicare_Plus_RxSpeed/data' filename='prescriptions.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1syziud15n6dyp19kv8qa1ck4h8f' name='prescriptions.csv' table='[prescriptions#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='prescription_id' ordinal='0' />
+            <column datatype='string' name='store_id' ordinal='1' />
+            <column datatype='date' name='date' ordinal='2' />
+            <column datatype='datetime' name='received_time' ordinal='3' />
+            <column datatype='datetime' name='filled_time' ordinal='4' />
+            <column datatype='real' name='wait_minutes' ordinal='5' />
+            <column datatype='string' name='drug_category' ordinal='6' />
+            <column datatype='string' name='insurance_type' ordinal='7' />
+            <column datatype='string' name='pharmacist_id' ordinal='8' />
+            <column datatype='string' name='technician_id' ordinal='9' />
+            <column datatype='integer' name='hour_of_day' ordinal='10' />
+            <column datatype='string' name='status' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prescription_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[prescription_id]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>prescription_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_id]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>store_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>received_time</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[received_time]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>received_time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>filled_time</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[filled_time]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>filled_time</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wait_minutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wait_minutes]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>wait_minutes</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drug_category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drug_category]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>drug_category</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>insurance_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[insurance_type]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>insurance_type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pharmacist_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pharmacist_id]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>pharmacist_id</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technician_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technician_id]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>technician_id</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hour_of_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hour_of_day]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>hour_of_day</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[status]</local-name>
+            <parent-name>[prescriptions.csv]</parent-name>
+            <remote-alias>status</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='prescriptions.csv' datatype='table' name='[__tableau_internal_object_id__].[prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Drug Category' datatype='string' name='[drug_category]' role='dimension' type='nominal' />
+      <column caption='Filled Time' datatype='datetime' name='[filled_time]' role='dimension' type='ordinal' />
+      <column caption='Hour Of Day' datatype='integer' name='[hour_of_day]' role='dimension' type='quantitative' />
+      <column caption='Insurance Type' datatype='string' name='[insurance_type]' role='dimension' type='nominal' />
+      <column caption='Pharmacist Id' datatype='string' name='[pharmacist_id]' role='dimension' type='nominal' />
+      <column caption='Prescription Id' datatype='string' name='[prescription_id]' role='dimension' type='nominal' />
+      <column caption='Received Time' datatype='datetime' name='[received_time]' role='dimension' type='ordinal' />
+      <column caption='Status' datatype='string' name='[status]' role='dimension' type='nominal' />
+      <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+      <column caption='Technician Id' datatype='string' name='[technician_id]' role='dimension' type='nominal' />
+      <column caption='Wait Minutes' datatype='real' name='[wait_minutes]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_16xgeyx1u3h0g31h008az1lbri1h.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/26/2026 11:25:13 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>prescription_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[prescription_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>prescription_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>500000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>store_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[store_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>store_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>247</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date</remote-alias>
+              <ordinal>2</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1778</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>received_time</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[received_time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>received_time</remote-alias>
+              <ordinal>3</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>446119</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>filled_time</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[filled_time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>filled_time</remote-alias>
+              <ordinal>4</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>446119</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wait_minutes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[wait_minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>wait_minutes</remote-alias>
+              <ordinal>5</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1451</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>drug_category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[drug_category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>drug_category</remote-alias>
+              <ordinal>6</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>insurance_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[insurance_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>insurance_type</remote-alias>
+              <ordinal>7</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pharmacist_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pharmacist_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pharmacist_id</remote-alias>
+              <ordinal>8</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2016</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>technician_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[technician_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>technician_id</remote-alias>
+              <ordinal>9</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5089</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hour_of_day</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[hour_of_day]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hour_of_day</remote-alias>
+              <ordinal>10</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>status</remote-alias>
+              <ordinal>11</ordinal>
+              <family>prescriptions.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='prescriptions.csv' id='prescriptions.csv_8E9C638AD656402FAC6F29CF2A02A443'>
+            <properties context=''>
+              <relation connection='textscan.1syziud15n6dyp19kv8qa1ck4h8f' name='prescriptions.csv' table='[prescriptions#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='prescription_id' ordinal='0' />
+                  <column datatype='string' name='store_id' ordinal='1' />
+                  <column datatype='date' name='date' ordinal='2' />
+                  <column datatype='datetime' name='received_time' ordinal='3' />
+                  <column datatype='datetime' name='filled_time' ordinal='4' />
+                  <column datatype='real' name='wait_minutes' ordinal='5' />
+                  <column datatype='string' name='drug_category' ordinal='6' />
+                  <column datatype='string' name='insurance_type' ordinal='7' />
+                  <column datatype='string' name='pharmacist_id' ordinal='8' />
+                  <column datatype='string' name='technician_id' ordinal='9' />
+                  <column datatype='integer' name='hour_of_day' ordinal='10' />
+                  <column datatype='string' name='status' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='daily_store_metrics' inline='true' name='federated.0eykalk00t74l41e9foxk1jy1a3v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='daily_store_metrics' name='textscan.0djs4sr0vxymas10cfumx1q4y7s5'>
+            <connection class='textscan' directory='S:/Projects for my portfolio/CMedicare_Plus_RxSpeed/data' filename='daily_store_metrics.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0djs4sr0vxymas10cfumx1q4y7s5' name='daily_store_metrics.csv' table='[daily_store_metrics#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='store_id' ordinal='0' />
+            <column datatype='date' name='date' ordinal='1' />
+            <column datatype='integer' name='total_prescriptions' ordinal='2' />
+            <column datatype='real' name='avg_wait_minutes' ordinal='3' />
+            <column datatype='real' name='max_wait_minutes' ordinal='4' />
+            <column datatype='integer' name='pending_count' ordinal='5' />
+            <column datatype='real' name='avg_satisfaction' ordinal='6' />
+            <column datatype='integer' name='survey_count' ordinal='7' />
+            <column datatype='integer' name='complaint_count' ordinal='8' />
+            <column datatype='integer' name='total_staff' ordinal='9' />
+            <column datatype='string' name='region' ordinal='10' />
+            <column datatype='string' name='district' ordinal='11' />
+            <column datatype='string' name='state' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>store_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[store_id]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>store_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_prescriptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_prescriptions]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>total_prescriptions</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_wait_minutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_wait_minutes]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>avg_wait_minutes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max_wait_minutes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[max_wait_minutes]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>max_wait_minutes</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pending_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pending_count]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>pending_count</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_satisfaction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_satisfaction]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>avg_satisfaction</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>survey_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[survey_count]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>survey_count</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>complaint_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[complaint_count]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>complaint_count</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_staff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_staff]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>total_staff</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>district</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[district]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>district</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[daily_store_metrics.csv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='daily_store_metrics.csv' datatype='table' name='[__tableau_internal_object_id__].[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]' role='measure' type='quantitative' />
+      <column caption='Avg Satisfaction' datatype='real' name='[avg_satisfaction]' role='measure' type='quantitative' />
+      <column caption='Avg Wait Minutes' datatype='real' name='[avg_wait_minutes]' role='measure' type='quantitative' />
+      <column caption='Complaint Count' datatype='integer' name='[complaint_count]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='District' datatype='string' name='[district]' role='dimension' type='nominal' />
+      <column caption='Max Wait Minutes' datatype='real' name='[max_wait_minutes]' role='measure' type='quantitative' />
+      <column caption='Pending Count' datatype='integer' name='[pending_count]' role='measure' type='quantitative' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+      <column caption='Survey Count' datatype='integer' name='[survey_count]' role='measure' type='quantitative' />
+      <column caption='Total Prescriptions' datatype='integer' name='[total_prescriptions]' role='measure' type='quantitative' />
+      <column caption='Total Staff' datatype='integer' name='[total_staff]' role='measure' type='quantitative' />
+      <group caption='Action (Region,State)' hidden='true' name='[Action (Region,State)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[region]' />
+          <groupfilter function='level-members' level='[state]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (State)' hidden='true' name='[Action (State)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[state]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1finnbx14j80dt1ae13up0m3hcl0.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/26/2026 11:11:00 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>store_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[store_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>store_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>426</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date</remote-alias>
+              <ordinal>1</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3501</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_prescriptions</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_prescriptions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_prescriptions</remote-alias>
+              <ordinal>2</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_wait_minutes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_wait_minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_wait_minutes</remote-alias>
+              <ordinal>3</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1490</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>max_wait_minutes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[max_wait_minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>max_wait_minutes</remote-alias>
+              <ordinal>4</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2248</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pending_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pending_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pending_count</remote-alias>
+              <ordinal>5</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_satisfaction</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_satisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_satisfaction</remote-alias>
+              <ordinal>6</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>survey_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[survey_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>survey_count</remote-alias>
+              <ordinal>7</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>complaint_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[complaint_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>complaint_count</remote-alias>
+              <ordinal>8</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_staff</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_staff]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_staff</remote-alias>
+              <ordinal>9</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>region</remote-alias>
+              <ordinal>10</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>district</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[district]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>district</remote-alias>
+              <ordinal>11</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>state</remote-alias>
+              <ordinal>12</ordinal>
+              <family>daily_store_metrics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='daily_store_metrics.csv' id='daily_store_metrics.csv_E1E39C2E876C48399E52DB33153047B5'>
+            <properties context=''>
+              <relation connection='textscan.0djs4sr0vxymas10cfumx1q4y7s5' name='daily_store_metrics.csv' table='[daily_store_metrics#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='store_id' ordinal='0' />
+                  <column datatype='date' name='date' ordinal='1' />
+                  <column datatype='integer' name='total_prescriptions' ordinal='2' />
+                  <column datatype='real' name='avg_wait_minutes' ordinal='3' />
+                  <column datatype='real' name='max_wait_minutes' ordinal='4' />
+                  <column datatype='integer' name='pending_count' ordinal='5' />
+                  <column datatype='real' name='avg_satisfaction' ordinal='6' />
+                  <column datatype='integer' name='survey_count' ordinal='7' />
+                  <column datatype='integer' name='complaint_count' ordinal='8' />
+                  <column datatype='integer' name='total_staff' ordinal='9' />
+                  <column datatype='string' name='region' ordinal='10' />
+                  <column datatype='string' name='district' ordinal='11' />
+                  <column datatype='string' name='state' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_18AEE97103ED41B682CFD8AF34CC05A7]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 2' type='sheet' worksheet='Sheet 7' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Peak Hour Heatmap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='prescriptions' name='federated.006yzjh16393we121gbzo1m3ua8k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.006yzjh16393we121gbzo1m3ua8k'>
+            <column-instance column='[wait_minutes]' derivation='Avg' name='[avg:wait_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Hour Of Day' datatype='integer' name='[hour_of_day]' role='dimension' type='quantitative' />
+            <column-instance column='[hour_of_day]' derivation='None' name='[none:hour_of_day:ok]' pivot='key' type='ordinal' />
+            <column caption='Wait Minutes' datatype='real' name='[wait_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[date]' derivation='Weekday' name='[wd:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='296' />
+            <format attr='height' field='[federated.006yzjh16393we121gbzo1m3ua8k].[yr:date:ok]' value='279' />
+            <format attr='height' field='[federated.006yzjh16393we121gbzo1m3ua8k].[wd:date:ok]' value='279' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.006yzjh16393we121gbzo1m3ua8k].[avg:wait_minutes:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.006yzjh16393we121gbzo1m3ua8k].[wd:date:ok]</rows>
+        <cols>[federated.006yzjh16393we121gbzo1m3ua8k].[none:hour_of_day:ok]</cols>
+      </table>
+      <simple-id uuid='{B06EA499-EFCB-4D96-8DC0-D57753940F23}' />
+    </worksheet>
+    <worksheet name='Regional Comparison'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_store_metrics' name='federated.0eykalk00t74l41e9foxk1jy1a3v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0eykalk00t74l41e9foxk1jy1a3v'>
+            <column-instance column='[avg_wait_minutes]' derivation='Avg' name='[avg:avg_wait_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Wait Minutes' datatype='real' name='[avg_wait_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:region:nk]' value='340' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:region:nk]' />
+              <text column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]</rows>
+        <cols>[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:region:nk]</cols>
+      </table>
+      <simple-id uuid='{7A9E7FA9-EAC9-4EBB-8E6B-DB680D7D5434}' />
+    </worksheet>
+    <worksheet name='Satisfaction vs Wait'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_store_metrics' name='federated.0eykalk00t74l41e9foxk1jy1a3v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0eykalk00t74l41e9foxk1jy1a3v'>
+            <column-instance column='[avg_satisfaction]' derivation='Avg' name='[avg:avg_satisfaction:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[avg_wait_minutes]' derivation='Avg' name='[avg:avg_wait_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Satisfaction' datatype='real' name='[avg_satisfaction]' role='measure' type='quantitative' />
+            <column caption='Avg Wait Minutes' datatype='real' name='[avg_wait_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[store_id]' derivation='None' name='[none:store_id:nk]' pivot='key' type='nominal' />
+            <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_satisfaction:qk]' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#efe0e0</color>
+                <color>#edd0d1</color>
+                <color>#ecc0c1</color>
+                <color>#eab1b1</color>
+                <color>#e9a1a2</color>
+                <color>#e79293</color>
+                <color>#e58384</color>
+                <color>#e47475</color>
+                <color>#e26567</color>
+                <color>#e15759</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_satisfaction:qk]' />
+              <lod column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:store_id:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_satisfaction:qk]</rows>
+        <cols>[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]</cols>
+      </table>
+      <simple-id uuid='{CC77413D-2E39-45DA-B443-D1A9F22E5AAB}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='184' />
+            <format attr='height' value='105' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width-header' value='48' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{71BD9ED8-7C3B-4A13-AB51-C1DE98C8CC1E}' />
+    </worksheet>
+    <worksheet name='State Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_store_metrics' name='federated.0eykalk00t74l41e9foxk1jy1a3v' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0eykalk00t74l41e9foxk1jy1a3v'>
+            <column-instance column='[avg_wait_minutes]' derivation='Avg' name='[avg:avg_wait_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Wait Minutes' datatype='real' name='[avg_wait_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[Action (Region,State)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_18AEE97103ED41B682CFD8AF34CC05A7]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[region]' />
+              <groupfilter function='level-members' level='[state]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0eykalk00t74l41e9foxk1jy1a3v].[Action (Region,State)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0eykalk00t74l41e9foxk1jy1a3v].[Longitude (generated)]' field-type='quantitative' max='-6538323.5797084533' min='-11204634.36202533' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0eykalk00t74l41e9foxk1jy1a3v].[Latitude (generated)]' field-type='quantitative' max='6070445.3729491038' min='2828962.2976846872' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' palette='brown_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.05000000074505806' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' />
+              <lod column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:state:nk]' />
+              <geometry column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0eykalk00t74l41e9foxk1jy1a3v].[Latitude (generated)]</rows>
+        <cols>[federated.0eykalk00t74l41e9foxk1jy1a3v].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{A5AF9874-E53B-433D-ADE8-22630AC949D9}' />
+    </worksheet>
+    <worksheet name='Store Ranking'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_store_metrics' name='federated.0eykalk00t74l41e9foxk1jy1a3v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0eykalk00t74l41e9foxk1jy1a3v'>
+            <column-instance column='[avg_wait_minutes]' derivation='Avg' name='[avg:avg_wait_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Wait Minutes' datatype='real' name='[avg_wait_minutes]' role='measure' type='quantitative' />
+            <column-instance column='[store_id]' derivation='None' name='[none:store_id:nk]' pivot='key' type='nominal' />
+            <column caption='Store Id' datatype='string' name='[store_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:store_id:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([avg_wait_minutes])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:store_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:store_id:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;ST-0075&quot;</bucket>
+              <bucket>&quot;ST-0080&quot;</bucket>
+              <bucket>&quot;ST-0222&quot;</bucket>
+              <bucket>&quot;ST-0050&quot;</bucket>
+              <bucket>&quot;ST-0224&quot;</bucket>
+              <bucket>&quot;ST-0024&quot;</bucket>
+              <bucket>&quot;ST-0101&quot;</bucket>
+              <bucket>&quot;ST-0194&quot;</bucket>
+              <bucket>&quot;ST-0140&quot;</bucket>
+              <bucket>&quot;ST-0228&quot;</bucket>
+              <bucket>&quot;ST-0063&quot;</bucket>
+              <bucket>&quot;ST-0197&quot;</bucket>
+              <bucket>&quot;ST-0241&quot;</bucket>
+              <bucket>&quot;ST-0085&quot;</bucket>
+              <bucket>&quot;ST-0170&quot;</bucket>
+              <bucket>&quot;ST-0104&quot;</bucket>
+              <bucket>&quot;ST-0137&quot;</bucket>
+              <bucket>&quot;ST-0153&quot;</bucket>
+              <bucket>&quot;ST-0070&quot;</bucket>
+              <bucket>&quot;ST-0046&quot;</bucket>
+              <bucket>&quot;ST-0234&quot;</bucket>
+              <bucket>&quot;ST-0130&quot;</bucket>
+              <bucket>&quot;ST-0009&quot;</bucket>
+              <bucket>&quot;ST-0084&quot;</bucket>
+              <bucket>&quot;ST-0011&quot;</bucket>
+              <bucket>&quot;ST-0215&quot;</bucket>
+              <bucket>&quot;ST-0094&quot;</bucket>
+              <bucket>&quot;ST-0169&quot;</bucket>
+              <bucket>&quot;ST-0030&quot;</bucket>
+              <bucket>&quot;ST-0058&quot;</bucket>
+              <bucket>&quot;ST-0218&quot;</bucket>
+              <bucket>&quot;ST-0044&quot;</bucket>
+              <bucket>&quot;ST-0081&quot;</bucket>
+              <bucket>&quot;ST-0105&quot;</bucket>
+              <bucket>&quot;ST-0111&quot;</bucket>
+              <bucket>&quot;ST-0237&quot;</bucket>
+              <bucket>&quot;ST-0112&quot;</bucket>
+              <bucket>&quot;ST-0014&quot;</bucket>
+              <bucket>&quot;ST-0115&quot;</bucket>
+              <bucket>&quot;ST-0067&quot;</bucket>
+              <bucket>&quot;ST-0073&quot;</bucket>
+              <bucket>&quot;ST-0038&quot;</bucket>
+              <bucket>&quot;ST-0233&quot;</bucket>
+              <bucket>&quot;ST-0023&quot;</bucket>
+              <bucket>&quot;ST-0129&quot;</bucket>
+              <bucket>&quot;ST-0227&quot;</bucket>
+              <bucket>&quot;ST-0091&quot;</bucket>
+              <bucket>&quot;ST-0015&quot;</bucket>
+              <bucket>&quot;ST-0232&quot;</bucket>
+              <bucket>&quot;ST-0040&quot;</bucket>
+              <bucket>&quot;ST-0154&quot;</bucket>
+              <bucket>&quot;ST-0144&quot;</bucket>
+              <bucket>&quot;ST-0141&quot;</bucket>
+              <bucket>&quot;ST-0143&quot;</bucket>
+              <bucket>&quot;ST-0131&quot;</bucket>
+              <bucket>&quot;ST-0109&quot;</bucket>
+              <bucket>&quot;ST-0190&quot;</bucket>
+              <bucket>&quot;ST-0174&quot;</bucket>
+              <bucket>&quot;ST-0096&quot;</bucket>
+              <bucket>&quot;ST-0013&quot;</bucket>
+              <bucket>&quot;ST-0020&quot;</bucket>
+              <bucket>&quot;ST-0045&quot;</bucket>
+              <bucket>&quot;ST-0051&quot;</bucket>
+              <bucket>&quot;ST-0124&quot;</bucket>
+              <bucket>&quot;ST-0106&quot;</bucket>
+              <bucket>&quot;ST-0018&quot;</bucket>
+              <bucket>&quot;ST-0205&quot;</bucket>
+              <bucket>&quot;ST-0088&quot;</bucket>
+              <bucket>&quot;ST-0196&quot;</bucket>
+              <bucket>&quot;ST-0039&quot;</bucket>
+              <bucket>&quot;ST-0152&quot;</bucket>
+              <bucket>&quot;ST-0071&quot;</bucket>
+              <bucket>&quot;ST-0148&quot;</bucket>
+              <bucket>&quot;ST-0147&quot;</bucket>
+              <bucket>&quot;ST-0134&quot;</bucket>
+              <bucket>&quot;ST-0159&quot;</bucket>
+              <bucket>&quot;ST-0064&quot;</bucket>
+              <bucket>&quot;ST-0243&quot;</bucket>
+              <bucket>&quot;ST-0036&quot;</bucket>
+              <bucket>&quot;ST-0207&quot;</bucket>
+              <bucket>&quot;ST-0245&quot;</bucket>
+              <bucket>&quot;ST-0187&quot;</bucket>
+              <bucket>&quot;ST-0208&quot;</bucket>
+              <bucket>&quot;ST-0010&quot;</bucket>
+              <bucket>&quot;ST-0133&quot;</bucket>
+              <bucket>&quot;ST-0211&quot;</bucket>
+              <bucket>&quot;ST-0200&quot;</bucket>
+              <bucket>&quot;ST-0118&quot;</bucket>
+              <bucket>&quot;ST-0202&quot;</bucket>
+              <bucket>&quot;ST-0027&quot;</bucket>
+              <bucket>&quot;ST-0041&quot;</bucket>
+              <bucket>&quot;ST-0127&quot;</bucket>
+              <bucket>&quot;ST-0214&quot;</bucket>
+              <bucket>&quot;ST-0183&quot;</bucket>
+              <bucket>&quot;ST-0017&quot;</bucket>
+              <bucket>&quot;ST-0216&quot;</bucket>
+              <bucket>&quot;ST-0135&quot;</bucket>
+              <bucket>&quot;ST-0034&quot;</bucket>
+              <bucket>&quot;ST-0181&quot;</bucket>
+              <bucket>&quot;ST-0122&quot;</bucket>
+              <bucket>&quot;ST-0186&quot;</bucket>
+              <bucket>&quot;ST-0182&quot;</bucket>
+              <bucket>&quot;ST-0057&quot;</bucket>
+              <bucket>&quot;ST-0223&quot;</bucket>
+              <bucket>&quot;ST-0019&quot;</bucket>
+              <bucket>&quot;ST-0035&quot;</bucket>
+              <bucket>&quot;ST-0206&quot;</bucket>
+              <bucket>&quot;ST-0162&quot;</bucket>
+              <bucket>&quot;ST-0189&quot;</bucket>
+              <bucket>&quot;ST-0164&quot;</bucket>
+              <bucket>&quot;ST-0171&quot;</bucket>
+              <bucket>&quot;ST-0161&quot;</bucket>
+              <bucket>&quot;ST-0172&quot;</bucket>
+              <bucket>&quot;ST-0076&quot;</bucket>
+              <bucket>&quot;ST-0146&quot;</bucket>
+              <bucket>&quot;ST-0192&quot;</bucket>
+              <bucket>&quot;ST-0065&quot;</bucket>
+              <bucket>&quot;ST-0092&quot;</bucket>
+              <bucket>&quot;ST-0244&quot;</bucket>
+              <bucket>&quot;ST-0176&quot;</bucket>
+              <bucket>&quot;ST-0087&quot;</bucket>
+              <bucket>&quot;ST-0240&quot;</bucket>
+              <bucket>&quot;ST-0231&quot;</bucket>
+              <bucket>&quot;ST-0156&quot;</bucket>
+              <bucket>&quot;ST-0217&quot;</bucket>
+              <bucket>&quot;ST-0229&quot;</bucket>
+              <bucket>&quot;ST-0239&quot;</bucket>
+              <bucket>&quot;ST-0056&quot;</bucket>
+              <bucket>&quot;ST-0053&quot;</bucket>
+              <bucket>&quot;ST-0031&quot;</bucket>
+              <bucket>&quot;ST-0165&quot;</bucket>
+              <bucket>&quot;ST-0093&quot;</bucket>
+              <bucket>&quot;ST-0128&quot;</bucket>
+              <bucket>&quot;ST-0226&quot;</bucket>
+              <bucket>&quot;ST-0055&quot;</bucket>
+              <bucket>&quot;ST-0029&quot;</bucket>
+              <bucket>&quot;ST-0016&quot;</bucket>
+              <bucket>&quot;ST-0025&quot;</bucket>
+              <bucket>&quot;ST-0247&quot;</bucket>
+              <bucket>&quot;ST-0089&quot;</bucket>
+              <bucket>&quot;ST-0061&quot;</bucket>
+              <bucket>&quot;ST-0012&quot;</bucket>
+              <bucket>&quot;ST-0212&quot;</bucket>
+              <bucket>&quot;ST-0086&quot;</bucket>
+              <bucket>&quot;ST-0052&quot;</bucket>
+              <bucket>&quot;ST-0225&quot;</bucket>
+              <bucket>&quot;ST-0047&quot;</bucket>
+              <bucket>&quot;ST-0191&quot;</bucket>
+              <bucket>&quot;ST-0102&quot;</bucket>
+              <bucket>&quot;ST-0095&quot;</bucket>
+              <bucket>&quot;ST-0138&quot;</bucket>
+              <bucket>&quot;ST-0219&quot;</bucket>
+              <bucket>&quot;ST-0078&quot;</bucket>
+              <bucket>&quot;ST-0142&quot;</bucket>
+              <bucket>&quot;ST-0246&quot;</bucket>
+              <bucket>&quot;ST-0005&quot;</bucket>
+              <bucket>&quot;ST-0103&quot;</bucket>
+              <bucket>&quot;ST-0006&quot;</bucket>
+              <bucket>&quot;ST-0022&quot;</bucket>
+              <bucket>&quot;ST-0066&quot;</bucket>
+              <bucket>&quot;ST-0185&quot;</bucket>
+              <bucket>&quot;ST-0100&quot;</bucket>
+              <bucket>&quot;ST-0179&quot;</bucket>
+              <bucket>&quot;ST-0043&quot;</bucket>
+              <bucket>&quot;ST-0062&quot;</bucket>
+              <bucket>&quot;ST-0110&quot;</bucket>
+              <bucket>&quot;ST-0002&quot;</bucket>
+              <bucket>&quot;ST-0188&quot;</bucket>
+              <bucket>&quot;ST-0173&quot;</bucket>
+              <bucket>&quot;ST-0242&quot;</bucket>
+              <bucket>&quot;ST-0004&quot;</bucket>
+              <bucket>&quot;ST-0199&quot;</bucket>
+              <bucket>&quot;ST-0177&quot;</bucket>
+              <bucket>&quot;ST-0117&quot;</bucket>
+              <bucket>&quot;ST-0099&quot;</bucket>
+              <bucket>&quot;ST-0136&quot;</bucket>
+              <bucket>&quot;ST-0077&quot;</bucket>
+              <bucket>&quot;ST-0113&quot;</bucket>
+              <bucket>&quot;ST-0033&quot;</bucket>
+              <bucket>&quot;ST-0072&quot;</bucket>
+              <bucket>&quot;ST-0079&quot;</bucket>
+              <bucket>&quot;ST-0042&quot;</bucket>
+              <bucket>&quot;ST-0132&quot;</bucket>
+              <bucket>&quot;ST-0198&quot;</bucket>
+              <bucket>&quot;ST-0220&quot;</bucket>
+              <bucket>&quot;ST-0195&quot;</bucket>
+              <bucket>&quot;ST-0108&quot;</bucket>
+              <bucket>&quot;ST-0238&quot;</bucket>
+              <bucket>&quot;ST-0026&quot;</bucket>
+              <bucket>&quot;ST-0037&quot;</bucket>
+              <bucket>&quot;ST-0145&quot;</bucket>
+              <bucket>&quot;ST-0151&quot;</bucket>
+              <bucket>&quot;ST-0193&quot;</bucket>
+              <bucket>&quot;ST-0097&quot;</bucket>
+              <bucket>&quot;ST-0098&quot;</bucket>
+              <bucket>&quot;ST-0175&quot;</bucket>
+              <bucket>&quot;ST-0049&quot;</bucket>
+              <bucket>&quot;ST-0116&quot;</bucket>
+              <bucket>&quot;ST-0032&quot;</bucket>
+              <bucket>&quot;ST-0150&quot;</bucket>
+              <bucket>&quot;ST-0059&quot;</bucket>
+              <bucket>&quot;ST-0155&quot;</bucket>
+              <bucket>&quot;ST-0028&quot;</bucket>
+              <bucket>&quot;ST-0201&quot;</bucket>
+              <bucket>&quot;ST-0157&quot;</bucket>
+              <bucket>&quot;ST-0168&quot;</bucket>
+              <bucket>&quot;ST-0069&quot;</bucket>
+              <bucket>&quot;ST-0184&quot;</bucket>
+              <bucket>&quot;ST-0082&quot;</bucket>
+              <bucket>&quot;ST-0180&quot;</bucket>
+              <bucket>&quot;ST-0166&quot;</bucket>
+              <bucket>&quot;ST-0001&quot;</bucket>
+              <bucket>&quot;ST-0158&quot;</bucket>
+              <bucket>&quot;ST-0090&quot;</bucket>
+              <bucket>&quot;ST-0235&quot;</bucket>
+              <bucket>&quot;ST-0149&quot;</bucket>
+              <bucket>&quot;ST-0054&quot;</bucket>
+              <bucket>&quot;ST-0126&quot;</bucket>
+              <bucket>&quot;ST-0209&quot;</bucket>
+              <bucket>&quot;ST-0230&quot;</bucket>
+              <bucket>&quot;ST-0125&quot;</bucket>
+              <bucket>&quot;ST-0003&quot;</bucket>
+              <bucket>&quot;ST-0236&quot;</bucket>
+              <bucket>&quot;ST-0160&quot;</bucket>
+              <bucket>&quot;ST-0139&quot;</bucket>
+              <bucket>&quot;ST-0008&quot;</bucket>
+              <bucket>&quot;ST-0121&quot;</bucket>
+              <bucket>&quot;ST-0120&quot;</bucket>
+              <bucket>&quot;ST-0060&quot;</bucket>
+              <bucket>&quot;ST-0167&quot;</bucket>
+              <bucket>&quot;ST-0210&quot;</bucket>
+              <bucket>&quot;ST-0007&quot;</bucket>
+              <bucket>&quot;ST-0048&quot;</bucket>
+              <bucket>&quot;ST-0107&quot;</bucket>
+              <bucket>&quot;ST-0213&quot;</bucket>
+              <bucket>&quot;ST-0074&quot;</bucket>
+              <bucket>&quot;ST-0083&quot;</bucket>
+              <bucket>&quot;ST-0203&quot;</bucket>
+              <bucket>&quot;ST-0114&quot;</bucket>
+              <bucket>&quot;ST-0204&quot;</bucket>
+              <bucket>&quot;ST-0221&quot;</bucket>
+              <bucket>&quot;ST-0163&quot;</bucket>
+              <bucket>&quot;ST-0178&quot;</bucket>
+              <bucket>&quot;ST-0119&quot;</bucket>
+              <bucket>&quot;ST-0123&quot;</bucket>
+              <bucket>&quot;ST-0068&quot;</bucket>
+              <bucket>&quot;ST-0021&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:store_id:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#efe0e0</color>
+                <color>#edd0d1</color>
+                <color>#ecc0c1</color>
+                <color>#eab1b1</color>
+                <color>#e9a1a2</color>
+                <color>#e79293</color>
+                <color>#e58384</color>
+                <color>#e47475</color>
+                <color>#e26567</color>
+                <color>#e15759</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' />
+              <text column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:store_id:nk]</rows>
+        <cols>[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]</cols>
+      </table>
+      <simple-id uuid='{5DC4C97C-0C08-4D3C-9EAD-F8B0E7762AF8}' />
+    </worksheet>
+    <worksheet name='Wait Time Trend  1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='daily_store_metrics' name='federated.0eykalk00t74l41e9foxk1jy1a3v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0eykalk00t74l41e9foxk1jy1a3v'>
+            <column-instance column='[avg_wait_minutes]' derivation='Avg' name='[avg:avg_wait_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Avg Wait Minutes' datatype='real' name='[avg_wait_minutes]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-size' id='refline0' value='5' />
+            <format attr='stroke-color' id='refline0' value='#1b1b1b' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' enable-instant-analytics='true' formula='constant' id='refline0' label-type='automatic' scope='per-pane' value='15.0' value-column='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]</rows>
+        <cols>[federated.0eykalk00t74l41e9foxk1jy1a3v].[tmn:date:qk]</cols>
+      </table>
+      <simple-id uuid='{7D687DF3-610F-489D-B375-55183C7F2E55}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98736' id='8' param='horz' type-v2='layout-flow' w='99234' x='383' y='632'>
+            <zone h='98736' id='6' type-v2='layout-basic' w='91571' x='383' y='632'>
+              <zone h='49368' id='3' name='Wait Time Trend  1' w='43526' x='383' y='632'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49368' id='5' name='Peak Hour Heatmap' w='45785' x='383' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49368' id='10' name='Store Ranking' w='45786' x='46168' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49368' id='12' name='Regional Comparison' w='19174' x='43909' y='632'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49368' id='14' name='Satisfaction vs Wait' w='28871' x='63083' y='632'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98736' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='7663' x='91954' y='632'>
+              <zone h='6398' id='9' name='Peak Hour Heatmap' pane-specification-id='0' param='[federated.006yzjh16393we121gbzo1m3ua8k].[avg:wait_minutes:qk]' type-v2='color' w='7663' x='91954' y='632'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6398' id='11' name='Store Ranking' pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' type-v2='color' w='7663' x='91954' y='7030'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6635' id='13' name='Regional Comparison' pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:region:nk]' type-v2='color' w='7663' x='91954' y='13428'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6398' id='15' name='Satisfaction vs Wait' pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_satisfaction:qk]' type-v2='color' w='7663' x='91954' y='20063'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98736' id='20' param='vert' type-v2='layout-flow' w='99286' x='357' y='632'>
+                <zone fixed-size='280' h='49368' id='3' is-fixed='true' name='Wait Time Trend  1' w='43805' x='357' y='632'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49368' id='12' is-fixed='true' name='Regional Comparison' w='19296' x='44162' y='632'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6635' id='13' name='Regional Comparison' pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:region:nk]' type-v2='color' w='7130' x='92513' y='13428'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49368' id='14' is-fixed='true' name='Satisfaction vs Wait' w='29055' x='63458' y='632'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6398' id='15' name='Satisfaction vs Wait' pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_satisfaction:qk]' type-v2='color' w='7130' x='92513' y='20063'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49368' id='5' is-fixed='true' name='Peak Hour Heatmap' w='46078' x='357' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6398' id='9' name='Peak Hour Heatmap' pane-specification-id='0' param='[federated.006yzjh16393we121gbzo1m3ua8k].[avg:wait_minutes:qk]' type-v2='color' w='7130' x='92513' y='632'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49368' id='10' is-fixed='true' name='Store Ranking' w='46078' x='46435' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6398' id='11' name='Store Ranking' pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' type-v2='color' w='7130' x='92513' y='7030'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A61AE00E-BC28-41CD-9FA2-E8E174F8FB15}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='11' param='horz' type-v2='layout-flow' w='97538' x='1231' y='930'>
+            <zone h='98140' id='8' param='horz' type-v2='layout-flow' w='72923' x='1231' y='930'>
+              <zone h='98140' id='6' type-v2='layout-basic' w='72923' x='1231' y='930'>
+                <zone h='49070' id='3' name='Sheet 7' w='72923' x='1231' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49070' id='9' name='State Map' w='72923' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98140' id='10' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='930'>
+              <zone h='9418' id='12' name='State Map' pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' type-v2='color' w='24615' x='74154' y='930'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{32E0512F-EE4D-435F-A195-9DD7547CA12B}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{8F8629BF-5B27-402F-9C3B-DD895AA1DF10}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='75'>
+    <window class='worksheet' name='Wait Time Trend  1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FBEEB825-C05E-406A-A6C1-93EE7CD4C331}' />
+    </window>
+    <window class='worksheet' name='Peak Hour Heatmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='146'>
+            <card pane-specification-id='0' param='[federated.006yzjh16393we121gbzo1m3ua8k].[avg:wait_minutes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{54A06C57-F568-48FB-85CD-5CB3E99C3A3A}' />
+    </window>
+    <window class='worksheet' name='Store Ranking'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{BFA7CF94-0E21-42ED-8525-9D8B54F8FCC3}' />
+    </window>
+    <window class='worksheet' name='Regional Comparison'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[none:region:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1007CAB5-084A-47A5-8E5D-F897142875AC}' />
+    </window>
+    <window class='worksheet' name='Satisfaction vs Wait'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_satisfaction:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A359D5F4-47BA-4611-B09F-75518A3D00A4}' />
+    </window>
+    <window class='worksheet' name='State Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0eykalk00t74l41e9foxk1jy1a3v].[avg:avg_wait_minutes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E2D9B917-AC29-4902-9046-6160E68A3109}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0AC0F680-D98B-49E6-9E92-F99418A9B273}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Peak Hour Heatmap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Regional Comparison'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Satisfaction vs Wait'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Store Ranking'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Wait Time Trend  1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{54D6A752-715F-4E7B-926B-EF0938D9D6F7}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Sheet 7' />
+        <viewpoint name='State Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{1691BE37-02C6-4E78-BB14-2249188DAAEC}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{E47ECCF7-80D2-44FD-A1B0-C0569B4DC586}' />
+    </window>
+  </windows>
+</workbook>

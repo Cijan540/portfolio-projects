@@ -1,0 +1,248 @@
+store_id,store_name,city,state,region,district,open_date,store_size_sqft,drive_thru,manager_name,base_performance_score
+ST-0001,CMedicare Plus #0001,North Judithbury,AL,Southeast,D02,2023-02-18,8000,True,Noah Rhodes,0.925
+ST-0002,CMedicare Plus #0002,New Roberttown,TN,Southeast,D04,2019-12-07,10000,True,David Guzman,0.829
+ST-0003,CMedicare Plus #0003,Lake Debra,AL,Southeast,D12,2020-06-21,8000,False,Connie Lawrence,0.947
+ST-0004,CMedicare Plus #0004,Lake Roberto,OH,Midwest,D01,2001-08-06,8000,True,Daniel Gallagher,0.928
+ST-0005,CMedicare Plus #0005,South Colinstad,TN,Southeast,D09,2004-11-08,8000,True,Renee Blair,0.815
+ST-0006,CMedicare Plus #0006,South Christianport,FL,Southeast,D11,2019-08-16,15000,True,Lisa Hensley,0.815
+ST-0007,CMedicare Plus #0007,Lake Chad,WV,Southeast,D10,2021-01-08,12000,True,Patricia Galloway,1.0
+ST-0008,CMedicare Plus #0008,South Joshuastad,KY,Southeast,D12,2009-04-19,15000,True,Henry Santiago,0.965
+ST-0009,CMedicare Plus #0009,New Cynthiaside,MI,Midwest,D03,2023-06-05,10000,True,Carla Gray,0.63
+ST-0010,CMedicare Plus #0010,Lake Mark,IN,Midwest,D02,2023-02-25,15000,True,Amy Underwood,0.781
+ST-0011,CMedicare Plus #0011,Adamsborough,IL,Midwest,D06,2012-02-10,12000,True,Latoya Robbins,0.63
+ST-0012,CMedicare Plus #0012,Fostermouth,FL,Southeast,D08,2008-08-11,8000,False,Charles Mcgee,0.78
+ST-0013,CMedicare Plus #0013,Juliechester,IN,Midwest,D09,2019-09-19,12000,True,Jennifer Robinson,0.736
+ST-0014,CMedicare Plus #0014,Daviston,GA,Southeast,D04,2006-01-31,8000,True,Brittany Moore,0.563
+ST-0015,CMedicare Plus #0015,South Patrickmouth,AL,Southeast,D04,2015-09-28,12000,True,Tricia Valencia,0.591
+ST-0016,CMedicare Plus #0016,Lake Nicoleview,TN,Southeast,D02,2001-10-07,15000,True,Gina Carter,0.766
+ST-0017,CMedicare Plus #0017,Smithview,WV,Southeast,D11,2006-10-04,12000,True,Pamela Romero,0.698
+ST-0018,CMedicare Plus #0018,Meaganhaven,IL,Midwest,D06,2004-12-30,10000,True,Brittany Farmer,0.747
+ST-0019,CMedicare Plus #0019,New Mariotown,FL,Southeast,D11,2019-09-24,8000,True,Jack Galloway,0.714
+ST-0020,CMedicare Plus #0020,North John,NC,Southeast,D12,2011-11-03,10000,True,Angela Dennis,0.638
+ST-0021,CMedicare Plus #0021,East Donna,WV,Southeast,D07,2003-09-25,12000,True,Carmen Rose,1.0
+ST-0022,CMedicare Plus #0022,Brandtside,AL,Southeast,D06,2022-01-06,8000,True,Melissa Marquez,0.816
+ST-0023,CMedicare Plus #0023,Samuelhaven,OH,Midwest,D06,2014-12-14,15000,True,David Brown,0.71
+ST-0024,CMedicare Plus #0024,New Jeffrey,IN,Midwest,D04,2002-02-03,12000,True,Mark Perez,0.486
+ST-0025,CMedicare Plus #0025,Chadbury,AL,Southeast,D08,2002-06-12,15000,False,John Ryan,0.768
+ST-0026,CMedicare Plus #0026,Sanchezfort,KY,Southeast,D05,2020-10-21,10000,True,Cheryl Davis,0.867
+ST-0027,CMedicare Plus #0027,Rodneymouth,FL,Southeast,D09,2016-01-16,12000,False,Amy Valdez,0.677
+ST-0028,CMedicare Plus #0028,North Richardmouth,GA,Southeast,D07,2023-05-13,12000,True,Ashley Lee,0.906
+ST-0029,CMedicare Plus #0029,Taylorburgh,KY,Southeast,D09,2019-08-16,15000,True,David Leblanc,0.76
+ST-0030,CMedicare Plus #0030,North Deniseside,OH,Midwest,D02,2016-06-15,10000,True,Tracy House,0.656
+ST-0031,CMedicare Plus #0031,South Todd,AL,Southeast,D07,2009-06-02,8000,False,James Brown,0.76
+ST-0032,CMedicare Plus #0032,South Josephmouth,PA,Midwest,D10,2014-04-09,15000,True,Michael Cross,0.978
+ST-0033,CMedicare Plus #0033,Mooreport,NC,Southeast,D01,2020-04-14,8000,True,Anthony Fitzgerald,0.848
+ST-0034,CMedicare Plus #0034,Brianshire,AL,Southeast,D06,2003-06-14,8000,True,Thomas Schmidt,0.691
+ST-0035,CMedicare Plus #0035,Port Jacobland,PA,Midwest,D03,2003-04-24,15000,True,Cynthia Wilson,0.823
+ST-0036,CMedicare Plus #0036,New Brooke,FL,Southeast,D12,2020-10-04,12000,True,Jennifer Silva,0.667
+ST-0037,CMedicare Plus #0037,Sarahborough,NC,Southeast,D02,2019-03-01,12000,True,Emily Baker,0.881
+ST-0038,CMedicare Plus #0038,Stephenland,KY,Southeast,D06,2005-10-30,10000,True,Marc Hart,0.556
+ST-0039,CMedicare Plus #0039,New Jasonview,GA,Southeast,D06,2004-10-11,15000,True,Gregory Jones,0.651
+ST-0040,CMedicare Plus #0040,Justinmouth,IN,Midwest,D06,2009-09-08,12000,True,Michele Carr,0.73
+ST-0041,CMedicare Plus #0041,Lake Lisaport,OH,Midwest,D04,2023-08-18,8000,True,Ashley Humphrey,0.811
+ST-0042,CMedicare Plus #0042,North Juliaberg,FL,Southeast,D08,2010-05-17,8000,True,Larry Robbins,0.876
+ST-0043,CMedicare Plus #0043,Williamview,KY,Southeast,D11,2008-04-21,15000,True,Sarah Davis,0.833
+ST-0044,CMedicare Plus #0044,Bradleymouth,MI,Midwest,D09,2015-10-16,15000,True,Mandy Green,0.655
+ST-0045,CMedicare Plus #0045,Hoffmanville,NC,Southeast,D12,2016-05-29,10000,True,Stephen Mckee,0.628
+ST-0046,CMedicare Plus #0046,Port Mikeside,PA,Midwest,D11,2019-12-10,12000,False,Cameron Parker,0.592
+ST-0047,CMedicare Plus #0047,Jasonbury,NC,Southeast,D08,2002-09-25,8000,True,Heather Castro,0.781
+ST-0048,CMedicare Plus #0048,East Michelle,TN,Southeast,D02,2015-03-16,12000,True,Rita Keith,1.0
+ST-0049,CMedicare Plus #0049,Lake Sandra,GA,Southeast,D09,2002-03-22,10000,True,Jennifer Santiago,0.902
+ST-0050,CMedicare Plus #0050,Erikville,OH,Midwest,D02,2009-10-27,8000,True,Andrew Ruiz,0.436
+ST-0051,CMedicare Plus #0051,Baileybury,IN,Midwest,D01,2008-03-02,12000,True,Matthew Ross,0.749
+ST-0052,CMedicare Plus #0052,Port Joshuahaven,NC,Southeast,D04,2010-11-09,12000,False,William Herrera,0.792
+ST-0053,CMedicare Plus #0053,West Gregoryview,TN,Southeast,D09,2002-04-26,10000,False,Kyle Reed,0.748
+ST-0054,CMedicare Plus #0054,Obrienhaven,TN,Southeast,D08,2012-01-19,15000,True,Steven Lee,0.942
+ST-0055,CMedicare Plus #0055,Smithside,IN,Midwest,D02,2002-11-20,15000,True,Teresa Mclaughlin,0.855
+ST-0056,CMedicare Plus #0056,Ryanmouth,PA,Midwest,D07,2008-01-30,15000,True,Mary Martinez,0.84
+ST-0057,CMedicare Plus #0057,Elizabethmouth,AL,Southeast,D11,2011-08-06,8000,True,Edward Martinez,0.724
+ST-0058,CMedicare Plus #0058,Byrdburgh,PA,Midwest,D12,2015-09-07,12000,True,Elizabeth Kelley,0.654
+ST-0059,CMedicare Plus #0059,Justinchester,TN,Southeast,D04,2001-05-23,10000,False,Lisa Morris,0.9
+ST-0060,CMedicare Plus #0060,Lowehaven,KY,Southeast,D07,2016-05-29,10000,True,Steven Flynn,0.996
+ST-0061,CMedicare Plus #0061,West Zacharymouth,WV,Southeast,D04,2007-02-24,8000,False,Trevor Young,0.778
+ST-0062,CMedicare Plus #0062,Port James,NC,Southeast,D02,2011-12-09,8000,True,David Alvarez,0.822
+ST-0063,CMedicare Plus #0063,Perryshire,IN,Midwest,D04,2003-11-09,10000,False,Michael Snyder,0.534
+ST-0064,CMedicare Plus #0064,Lake Grace,WV,Southeast,D08,2009-09-05,10000,False,Shannon Mcclure,0.671
+ST-0065,CMedicare Plus #0065,East Linda,OH,Midwest,D03,2015-11-04,15000,True,Julie Grant,0.822
+ST-0066,CMedicare Plus #0066,Andersonmouth,PA,Midwest,D05,2005-07-04,15000,True,Victoria Larson,0.903
+ST-0067,CMedicare Plus #0067,Rivasside,PA,Midwest,D12,2016-06-08,15000,True,Christopher Hensley,0.689
+ST-0068,CMedicare Plus #0068,Karenview,TN,Southeast,D05,2016-09-09,10000,True,Kelly Sims,1.0
+ST-0069,CMedicare Plus #0069,Jonesport,GA,Southeast,D12,2010-09-20,8000,True,George Orozco,0.904
+ST-0070,CMedicare Plus #0070,East Jesse,OH,Midwest,D01,2004-02-13,15000,True,Michelle Brown,0.603
+ST-0071,CMedicare Plus #0071,Amychester,OH,Midwest,D09,2015-03-31,8000,True,Ross Price,0.754
+ST-0072,CMedicare Plus #0072,Port Nicoleshire,IN,Midwest,D10,2021-04-01,8000,True,Aaron Bell,0.931
+ST-0073,CMedicare Plus #0073,Medinaside,PA,Midwest,D02,2014-08-24,10000,True,Stephanie Freeman,0.695
+ST-0074,CMedicare Plus #0074,Tuckerfurt,GA,Southeast,D02,2010-08-30,15000,True,Michael Powell,1.0
+ST-0075,CMedicare Plus #0075,Calhounside,MI,Midwest,D04,2006-12-29,12000,True,James Elliott,0.307
+ST-0076,CMedicare Plus #0076,Lake Roymouth,MI,Midwest,D07,2002-04-19,10000,True,David Murphy,0.823
+ST-0077,CMedicare Plus #0077,Matthewfurt,WV,Southeast,D06,2016-11-05,8000,True,Trevor Fisher,0.863
+ST-0078,CMedicare Plus #0078,Smithside,WV,Southeast,D10,2004-02-29,8000,True,Trevor Walker,0.805
+ST-0079,CMedicare Plus #0079,Port Anthonybury,NC,Southeast,D04,2003-09-17,12000,True,Alex Hernandez,0.864
+ST-0080,CMedicare Plus #0080,Caldwellshire,IL,Midwest,D02,2005-09-02,10000,True,Julie Scott,0.402
+ST-0081,CMedicare Plus #0081,New Catherine,MI,Midwest,D03,2013-12-05,15000,True,Ashley Weiss,0.667
+ST-0082,CMedicare Plus #0082,New Anthonyport,GA,Southeast,D11,2011-12-17,8000,True,Susan Brooks,0.904
+ST-0083,CMedicare Plus #0083,New Hannahbury,AL,Southeast,D02,2008-02-15,10000,True,Raymond Jefferson,1.0
+ST-0084,CMedicare Plus #0084,Port Tonyaton,IN,Midwest,D02,2021-10-21,10000,True,Jeffrey Wood,0.622
+ST-0085,CMedicare Plus #0085,Alexanderchester,MI,Midwest,D10,2018-08-04,10000,True,Ashley Yu,0.579
+ST-0086,CMedicare Plus #0086,Zimmermanchester,TN,Southeast,D11,2023-01-01,12000,False,Joseph Santos,0.775
+ST-0087,CMedicare Plus #0087,Marshallshire,MI,Midwest,D01,2022-05-02,8000,False,Samuel Rivas,0.837
+ST-0088,CMedicare Plus #0088,Nicolebury,MI,Midwest,D01,2004-04-29,8000,True,Laura Barnett,0.749
+ST-0089,CMedicare Plus #0089,South Melissaburgh,KY,Southeast,D11,2012-10-27,12000,True,Mr. David Ramirez,0.771
+ST-0090,CMedicare Plus #0090,Angelahaven,FL,Southeast,D08,2021-08-29,15000,True,Angela Cortez,0.927
+ST-0091,CMedicare Plus #0091,Lake Thomas,IN,Midwest,D02,2017-12-31,10000,True,Joan Smith,0.715
+ST-0092,CMedicare Plus #0092,South Heather,IL,Midwest,D10,2011-05-22,10000,False,Kevin Kennedy,0.845
+ST-0093,CMedicare Plus #0093,Ronaldside,KY,Southeast,D01,2019-06-11,12000,True,Michael Nelson,0.745
+ST-0094,CMedicare Plus #0094,North Jennifer,OH,Midwest,D06,2009-12-06,10000,True,Patrick Tapia,0.651
+ST-0095,CMedicare Plus #0095,East Joanna,AL,Southeast,D02,2007-09-04,12000,False,Kevin Wolf,0.791
+ST-0096,CMedicare Plus #0096,Tinaborough,GA,Southeast,D12,2021-09-06,10000,True,Isaac Turner,0.63
+ST-0097,CMedicare Plus #0097,West Brandon,KY,Southeast,D03,2019-07-20,15000,True,Edgar Raymond,0.894
+ST-0098,CMedicare Plus #0098,Garciatown,KY,Southeast,D12,2023-01-30,12000,False,Julie Alexander,0.889
+ST-0099,CMedicare Plus #0099,West Shelleyfort,AL,Southeast,D12,2007-08-26,10000,True,Austin Vasquez,0.851
+ST-0100,CMedicare Plus #0100,East Edwardshire,KY,Southeast,D12,2021-01-03,8000,False,Angela Wright,0.815
+ST-0101,CMedicare Plus #0101,Obrienbury,OH,Midwest,D08,2020-05-13,10000,True,Jamie Kerr,0.488
+ST-0102,CMedicare Plus #0102,Torreston,WV,Southeast,D06,2011-06-30,12000,True,Natalie Meza,0.787
+ST-0103,CMedicare Plus #0103,West Donna,TN,Southeast,D01,2008-06-12,10000,False,Christopher Jones,0.799
+ST-0104,CMedicare Plus #0104,Hayesfort,IL,Midwest,D05,2001-06-20,8000,True,David Mann,0.58
+ST-0105,CMedicare Plus #0105,Lake Jesusview,IL,Midwest,D11,2016-10-28,15000,True,Lori Guerrero,0.676
+ST-0106,CMedicare Plus #0106,Wilsonbury,OH,Midwest,D02,2008-02-09,12000,True,Susan Serrano,0.761
+ST-0107,CMedicare Plus #0107,East Laurashire,GA,Southeast,D05,2003-10-22,8000,True,Jessica Harrison,1.0
+ST-0108,CMedicare Plus #0108,Benderhaven,GA,Southeast,D07,2011-09-22,12000,True,Jessica George,0.876
+ST-0109,CMedicare Plus #0109,Cassandratown,PA,Midwest,D10,2016-01-29,8000,False,Vernon Huff,0.739
+ST-0110,CMedicare Plus #0110,Port Emilyview,GA,Southeast,D04,2020-12-12,12000,True,Pamela Thompson,0.839
+ST-0111,CMedicare Plus #0111,Moonburgh,FL,Southeast,D07,2019-01-13,8000,True,Jessica Olsen DVM,0.562
+ST-0112,CMedicare Plus #0112,Rickymouth,IL,Midwest,D07,2017-05-15,8000,True,Shannon Rivera,0.696
+ST-0113,CMedicare Plus #0113,Elainefurt,GA,Southeast,D06,2018-03-27,8000,True,Krista Gibson,0.859
+ST-0114,CMedicare Plus #0114,Marcusfurt,NC,Southeast,D05,2012-01-29,15000,True,Samantha Smith,1.0
+ST-0115,CMedicare Plus #0115,Gutierrezborough,PA,Midwest,D12,2019-11-03,12000,True,Lisa Jimenez,0.671
+ST-0116,CMedicare Plus #0116,East Josephberg,TN,Southeast,D07,2016-06-01,15000,True,Jessica Wolfe,0.895
+ST-0117,CMedicare Plus #0117,Lake Chelseabury,GA,Southeast,D10,2005-07-05,12000,False,Emily Smith,0.845
+ST-0118,CMedicare Plus #0118,East Victoriaville,NC,Southeast,D01,2015-04-05,12000,True,Bruce Collier,0.675
+ST-0119,CMedicare Plus #0119,Williamview,TN,Southeast,D07,2018-05-02,12000,False,John Kennedy,1.0
+ST-0120,CMedicare Plus #0120,South James,WV,Southeast,D08,2016-12-01,10000,False,Nicole Taylor,0.963
+ST-0121,CMedicare Plus #0121,Kendrachester,FL,Southeast,D03,2003-10-02,8000,True,Richard Adams,0.969
+ST-0122,CMedicare Plus #0122,Jessicashire,NC,Southeast,D11,2001-06-18,12000,True,Mary Grimes,0.714
+ST-0123,CMedicare Plus #0123,Reedside,TN,Southeast,D11,2016-07-27,12000,True,Jamie Cantu,1.0
+ST-0124,CMedicare Plus #0124,New Patrick,TN,Southeast,D03,2007-10-18,8000,True,Jennifer Flores,0.64
+ST-0125,CMedicare Plus #0125,Hughesberg,TN,Southeast,D08,2017-06-20,8000,False,Andrew Shaw MD,0.938
+ST-0126,CMedicare Plus #0126,Garciamouth,PA,Midwest,D11,2004-10-16,10000,False,Charles Pitts,1.0
+ST-0127,CMedicare Plus #0127,South Kimberlyview,WV,Southeast,D07,2006-08-18,10000,True,Michael Santos,0.701
+ST-0128,CMedicare Plus #0128,Finleyfort,AL,Southeast,D12,2012-07-22,8000,True,Amanda Jones,0.765
+ST-0129,CMedicare Plus #0129,Wendyland,PA,Midwest,D04,2022-11-07,10000,False,Brett Schultz,0.715
+ST-0130,CMedicare Plus #0130,Jacksonport,OH,Midwest,D09,2004-10-18,10000,True,Amber Flynn,0.624
+ST-0131,CMedicare Plus #0131,Nicholasberg,WV,Southeast,D03,2011-05-11,15000,True,Jason Maldonado,0.617
+ST-0132,CMedicare Plus #0132,East Christian,WV,Southeast,D10,2007-07-03,15000,False,Lisa Allen,0.86
+ST-0133,CMedicare Plus #0133,East Steven,KY,Southeast,D12,2021-03-21,15000,False,David Smith,0.691
+ST-0134,CMedicare Plus #0134,Ericaburgh,MI,Midwest,D04,2017-03-16,12000,False,Tony Huerta,0.771
+ST-0135,CMedicare Plus #0135,Vaughnmouth,AL,Southeast,D04,2011-07-22,12000,False,Christina Cruz,0.712
+ST-0136,CMedicare Plus #0136,East Patrickstad,IN,Midwest,D12,2017-10-26,12000,True,Wendy Phillips,0.932
+ST-0137,CMedicare Plus #0137,Hillshire,MI,Midwest,D06,2023-10-10,12000,True,Paula Beltran,0.583
+ST-0138,CMedicare Plus #0138,Wallport,KY,Southeast,D03,2022-01-04,10000,False,Crystal Pham,0.802
+ST-0139,CMedicare Plus #0139,New John,FL,Southeast,D03,2008-10-29,10000,True,Patricia Becker,0.972
+ST-0140,CMedicare Plus #0140,Lake Debbieport,PA,Midwest,D07,2006-01-11,12000,False,Amanda Diaz,0.515
+ST-0141,CMedicare Plus #0141,West Markchester,PA,Midwest,D01,2005-11-06,10000,False,Carlos Ryan,0.734
+ST-0142,CMedicare Plus #0142,Mariaview,PA,Midwest,D10,2013-10-28,8000,False,Terry Coffey,0.896
+ST-0143,CMedicare Plus #0143,Lindamouth,WV,Southeast,D01,2011-06-02,12000,True,Brenda Levy,0.609
+ST-0144,CMedicare Plus #0144,Coffeyside,PA,Midwest,D07,2024-04-28,10000,False,Richard Smith,0.728
+ST-0145,CMedicare Plus #0145,South Miguelview,TN,Southeast,D05,2019-08-20,15000,False,Samantha Bentley,0.889
+ST-0146,CMedicare Plus #0146,South Angel,OH,Midwest,D07,2005-01-23,12000,False,Kristina Herman,0.817
+ST-0147,CMedicare Plus #0147,Lake Madisonport,FL,Southeast,D03,2008-11-28,15000,True,Audrey Williams,0.664
+ST-0148,CMedicare Plus #0148,Wendyville,GA,Southeast,D09,2002-08-23,8000,False,Stephen Taylor,0.652
+ST-0149,CMedicare Plus #0149,Ellenside,GA,Southeast,D10,2016-10-23,8000,True,Patrick Moore,0.928
+ST-0150,CMedicare Plus #0150,Port Tracychester,AL,Southeast,D07,2015-06-30,10000,False,Diana Vaughn,0.895
+ST-0151,CMedicare Plus #0151,Wallacebury,KY,Southeast,D01,2008-10-08,12000,False,Ariana Jennings,0.888
+ST-0152,CMedicare Plus #0152,Bruceview,IL,Midwest,D04,2019-11-26,15000,True,Bryan Charles,0.752
+ST-0153,CMedicare Plus #0153,Lake Jasontown,IL,Midwest,D07,2016-11-06,12000,False,Gavin Zhang,0.598
+ST-0154,CMedicare Plus #0154,North Maria,MI,Midwest,D02,2020-08-02,15000,True,Laurie Li,0.735
+ST-0155,CMedicare Plus #0155,Kimtown,FL,Southeast,D09,2009-04-21,8000,True,William Huerta,0.894
+ST-0156,CMedicare Plus #0156,Laurenville,TN,Southeast,D11,2019-10-04,8000,True,Allison Smith,0.743
+ST-0157,CMedicare Plus #0157,Alfredview,OH,Midwest,D04,2009-06-21,10000,True,Patrick Fox,0.98
+ST-0158,CMedicare Plus #0158,Weststad,GA,Southeast,D03,2003-07-16,10000,True,Ashley Gordon,0.921
+ST-0159,CMedicare Plus #0159,Lake Kristahaven,WV,Southeast,D11,2022-04-22,8000,True,Mason Johnson,0.671
+ST-0160,CMedicare Plus #0160,Simmonsville,WV,Southeast,D12,2017-09-03,12000,True,Theodore Jones Jr.,0.948
+ST-0161,CMedicare Plus #0161,North David,KY,Southeast,D10,2022-01-27,8000,True,Lauren Joseph,0.704
+ST-0162,CMedicare Plus #0162,Shawnchester,MI,Midwest,D02,2014-05-03,8000,True,Michael Farrell,0.818
+ST-0163,CMedicare Plus #0163,South Shannon,GA,Southeast,D11,2023-07-11,15000,False,Gerald Chavez,1.0
+ST-0164,CMedicare Plus #0164,West Ronaldview,FL,Southeast,D04,2015-07-13,8000,True,Christian Leblanc,0.727
+ST-0165,CMedicare Plus #0165,Port Christopherchester,IN,Midwest,D12,2003-08-30,12000,True,Parker Cain,0.845
+ST-0166,CMedicare Plus #0166,New Sueside,GA,Southeast,D01,2020-04-22,12000,False,Bryan Gomez,0.912
+ST-0167,CMedicare Plus #0167,Parrishton,AL,Southeast,D06,2024-01-06,8000,True,Lindsay Bell,0.973
+ST-0168,CMedicare Plus #0168,East Diane,OH,Midwest,D07,2021-01-15,15000,True,Brian Bruce,0.985
+ST-0169,CMedicare Plus #0169,Port Joshuabury,PA,Midwest,D06,2013-11-18,15000,True,Sarah Villegas,0.663
+ST-0170,CMedicare Plus #0170,New Sarahview,PA,Midwest,D03,2022-07-13,12000,False,Donald Farmer,0.587
+ST-0171,CMedicare Plus #0171,Adamberg,WV,Southeast,D07,2012-12-09,12000,True,Jennifer Thomas,0.717
+ST-0172,CMedicare Plus #0172,North Julieborough,TN,Southeast,D02,2022-12-02,12000,False,Jesse Moore,0.728
+ST-0173,CMedicare Plus #0173,Kimberlyshire,TN,Southeast,D08,2011-12-24,15000,True,Sophia Moore,0.838
+ST-0174,CMedicare Plus #0174,Lake Christophermouth,OH,Midwest,D08,2022-05-26,12000,True,Karla Ramos,0.751
+ST-0175,CMedicare Plus #0175,Port William,WV,Southeast,D04,2010-09-02,12000,True,Brian Gregory,0.892
+ST-0176,CMedicare Plus #0176,Roseport,IL,Midwest,D05,2021-07-23,12000,True,James Greene,0.824
+ST-0177,CMedicare Plus #0177,West Sierra,NC,Southeast,D04,2001-08-21,8000,True,Pamela Roberts,0.852
+ST-0178,CMedicare Plus #0178,South Julieburgh,FL,Southeast,D07,2005-06-17,15000,True,Joseph Hall,1.0
+ST-0179,CMedicare Plus #0179,Charleston,FL,Southeast,D08,2020-05-21,15000,False,Joe Miller,0.81
+ST-0180,CMedicare Plus #0180,Berrychester,OH,Midwest,D02,2012-01-11,12000,True,Jared Burch,1.0
+ST-0181,CMedicare Plus #0181,Collierstad,PA,Midwest,D12,2007-03-23,10000,True,Ryan Sanchez,0.794
+ST-0182,CMedicare Plus #0182,Warrenfurt,AL,Southeast,D10,2021-05-31,12000,False,Nichole Walker,0.721
+ST-0183,CMedicare Plus #0183,New Cynthiahaven,NC,Southeast,D09,2007-02-05,12000,False,Susan Bailey,0.689
+ST-0184,CMedicare Plus #0184,East Curtis,FL,Southeast,D09,2023-05-04,12000,True,Christopher Hernandez,0.922
+ST-0185,CMedicare Plus #0185,East Stephaniefort,FL,Southeast,D08,2023-09-06,12000,True,Justin Riley,0.816
+ST-0186,CMedicare Plus #0186,Michellemouth,MI,Midwest,D04,2020-08-01,8000,True,Barry Ramos,0.807
+ST-0187,CMedicare Plus #0187,Brittanystad,IL,Midwest,D02,2011-09-06,10000,True,Emily Hayes,0.771
+ST-0188,CMedicare Plus #0188,Marieland,TN,Southeast,D12,2003-04-25,15000,True,Vanessa Davis,0.839
+ST-0189,CMedicare Plus #0189,Fordside,FL,Southeast,D10,2021-08-03,12000,True,Nancy Williams,0.723
+ST-0190,CMedicare Plus #0190,West Cassidy,TN,Southeast,D05,2020-10-29,10000,True,Tina Hayes,0.623
+ST-0191,CMedicare Plus #0191,New Debbieton,KY,Southeast,D05,2013-01-23,8000,True,Jeffrey Gonzales,0.783
+ST-0192,CMedicare Plus #0192,West Nathan,MI,Midwest,D01,2019-03-01,8000,True,Jason Morgan,0.828
+ST-0193,CMedicare Plus #0193,Port Crystalmouth,FL,Southeast,D03,2021-09-20,15000,True,Brandon Gregory,0.882
+ST-0194,CMedicare Plus #0194,Jenniferberg,OH,Midwest,D10,2011-01-17,12000,False,Kevin Thomas,0.513
+ST-0195,CMedicare Plus #0195,Tammyfurt,WV,Southeast,D08,2013-04-12,12000,True,Michael Miller,0.876
+ST-0196,CMedicare Plus #0196,Schneidermouth,OH,Midwest,D05,2020-05-24,15000,True,Meagan Calderon,0.758
+ST-0197,CMedicare Plus #0197,Lake Ellenhaven,IN,Midwest,D07,2019-04-15,15000,True,Jack White,0.567
+ST-0198,CMedicare Plus #0198,Staceyfort,GA,Southeast,D11,2008-08-30,8000,True,Zachary Moore,0.873
+ST-0199,CMedicare Plus #0199,New Kellihaven,KY,Southeast,D10,2011-06-10,12000,True,George Miranda,0.859
+ST-0200,CMedicare Plus #0200,Mooreburgh,TN,Southeast,D02,2005-11-01,15000,True,Patricia Lamb,0.679
+ST-0201,CMedicare Plus #0201,Williamsstad,NC,Southeast,D07,2007-01-04,15000,False,Cynthia Wallace,0.904
+ST-0202,CMedicare Plus #0202,Youngbury,MI,Midwest,D10,2011-01-26,15000,True,Robert Harrison,0.784
+ST-0203,CMedicare Plus #0203,Erikashire,GA,Southeast,D10,2007-12-24,8000,True,Mrs. Diane Reyes,1.0
+ST-0204,CMedicare Plus #0204,Burchborough,TN,Southeast,D11,2019-04-29,10000,True,Brenda Wright,1.0
+ST-0205,CMedicare Plus #0205,Sawyerside,AL,Southeast,D02,2023-03-12,10000,True,Michelle Black,0.643
+ST-0206,CMedicare Plus #0206,Christopherburgh,KY,Southeast,D09,2005-08-14,8000,True,Taylor Hernandez,0.709
+ST-0207,CMedicare Plus #0207,East Lisastad,OH,Midwest,D07,2016-04-05,15000,False,Jennifer Sanders,0.777
+ST-0208,CMedicare Plus #0208,South Virginia,MI,Midwest,D01,2014-02-06,10000,True,Alfred Galvan,0.777
+ST-0209,CMedicare Plus #0209,Laceyberg,FL,Southeast,D05,2023-06-29,15000,True,Thomas Kennedy,0.927
+ST-0210,CMedicare Plus #0210,Westtown,AL,Southeast,D04,2006-02-05,12000,True,Alicia Lewis,1.0
+ST-0211,CMedicare Plus #0211,Rodriguezport,PA,Midwest,D02,2006-06-19,10000,True,Bryan Allen,0.786
+ST-0212,CMedicare Plus #0212,Brownfort,MI,Midwest,D03,2023-02-12,8000,True,Alexis Robertson,0.87
+ST-0213,CMedicare Plus #0213,West Ruben,KY,Southeast,D05,2009-08-10,12000,False,Cynthia Butler,0.993
+ST-0214,CMedicare Plus #0214,New Theresaland,IN,Midwest,D08,2023-12-25,12000,False,Kimberly Hartman,0.798
+ST-0215,CMedicare Plus #0215,South Morganton,MI,Midwest,D09,2018-08-25,15000,False,Veronica King,0.653
+ST-0216,CMedicare Plus #0216,Kristinastad,IN,Midwest,D10,2001-12-05,8000,False,Matthew Garcia,0.814
+ST-0217,CMedicare Plus #0217,Dennisstad,FL,Southeast,D06,2021-03-05,12000,True,Robin Thompson,0.734
+ST-0218,CMedicare Plus #0218,Welchberg,IN,Midwest,D04,2017-03-09,8000,True,Ricardo Ellis,0.664
+ST-0219,CMedicare Plus #0219,North Kylie,GA,Southeast,D01,2011-05-12,10000,False,Emily Collins,0.777
+ST-0220,CMedicare Plus #0220,Kingborough,NC,Southeast,D11,2014-12-04,15000,True,Scott Williams,0.862
+ST-0221,CMedicare Plus #0221,Joshuastad,KY,Southeast,D10,2023-09-09,15000,False,James Gonzales,1.0
+ST-0222,CMedicare Plus #0222,Terrifort,IN,Midwest,D08,2014-07-14,12000,False,Holly Salinas,0.42
+ST-0223,CMedicare Plus #0223,Lake Rogerchester,IL,Midwest,D06,2010-06-14,8000,True,Samantha Gardner,0.803
+ST-0224,CMedicare Plus #0224,North Markport,IL,Midwest,D07,2012-04-21,15000,True,Lance Simmons,0.458
+ST-0225,CMedicare Plus #0225,Sergiostad,AL,Southeast,D07,2016-06-24,8000,False,Jessica Fowler,0.779
+ST-0226,CMedicare Plus #0226,Lake Danastad,IN,Midwest,D06,2003-04-30,12000,True,Nicole Moore,0.863
+ST-0227,CMedicare Plus #0227,Port Cathy,IN,Midwest,D07,2002-06-09,8000,False,Amanda Jones,0.71
+ST-0228,CMedicare Plus #0228,Michaelshire,PA,Midwest,D01,2023-04-30,10000,True,Christian Cole,0.538
+ST-0229,CMedicare Plus #0229,Scottland,GA,Southeast,D08,2013-12-31,15000,True,Kendra Sanders,0.743
+ST-0230,CMedicare Plus #0230,Johnville,TN,Southeast,D05,2023-06-24,10000,True,Cody Holmes,0.952
+ST-0231,CMedicare Plus #0231,West Kimberlymouth,WV,Southeast,D12,2020-06-27,15000,True,Logan Benson,0.74
+ST-0232,CMedicare Plus #0232,North Derek,OH,Midwest,D11,2018-02-02,10000,True,Christopher Reeves,0.732
+ST-0233,CMedicare Plus #0233,Elizabethland,MI,Midwest,D09,2004-05-13,8000,False,Donna Evans,0.707
+ST-0234,CMedicare Plus #0234,Port Michael,IN,Midwest,D04,2006-09-26,8000,False,William Conner,0.602
+ST-0235,CMedicare Plus #0235,Johnsonside,IN,Midwest,D11,2009-06-07,10000,False,Julie Bird,1.0
+ST-0236,CMedicare Plus #0236,North Kylefort,FL,Southeast,D05,2005-10-16,12000,False,Patricia Morrow,0.945
+ST-0237,CMedicare Plus #0237,West Dawn,WV,Southeast,D08,2003-11-20,10000,False,Michael Cooper,0.546
+ST-0238,CMedicare Plus #0238,Port Tammy,NC,Southeast,D03,2020-02-19,15000,True,Thomas Brown,0.878
+ST-0239,CMedicare Plus #0239,West Fred,GA,Southeast,D09,2005-08-08,10000,True,Michael Reed,0.751
+ST-0240,CMedicare Plus #0240,Meghanview,MI,Midwest,D07,2019-01-12,12000,True,Tyler Hill,0.828
+ST-0241,CMedicare Plus #0241,Christinaland,OH,Midwest,D05,2022-08-23,12000,False,Caroline David,0.581
+ST-0242,CMedicare Plus #0242,Lake Claudia,KY,Southeast,D08,2006-08-16,15000,True,Gail Bradshaw,0.833
+ST-0243,CMedicare Plus #0243,North Brandonshire,IL,Midwest,D09,2002-10-11,15000,False,Daniel Armstrong,0.776
+ST-0244,CMedicare Plus #0244,South Pamelaside,IL,Midwest,D04,2022-05-29,10000,False,Tyler Webb,0.83
+ST-0245,CMedicare Plus #0245,Shawnton,TN,Southeast,D07,2015-03-12,8000,True,Jason Marshall,0.67
+ST-0246,CMedicare Plus #0246,West Michelle,FL,Southeast,D08,2012-12-13,15000,False,William Reed,0.8
+ST-0247,CMedicare Plus #0247,Port Mitchell,AL,Southeast,D11,2014-12-11,10000,False,Emma Owens,0.779
