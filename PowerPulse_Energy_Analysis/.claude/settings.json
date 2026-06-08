@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"s:\\\\Projects for my portfolio\\\\PowerPulse_Energy_Analysis\" -Recurse -Name)",
+      "Bash(Select-Object -First 50)",
+      "Read(//s/Projects for my portfolio/**)"
+    ]
+  }
+}

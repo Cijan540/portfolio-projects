@@ -1,0 +1,52 @@
+state_name,abbreviation,state_code,region
+Alabama,Ala.,AL,South
+Alaska,Alaska,AK,West
+Arizona,Ariz.,AZ,West
+Arkansas,Ark.,AR,South
+California,Calif.,CA,West
+Colorado,Colo.,CO,West
+Connecticut,Conn.,CT,Northeast
+Delaware,Del.,DE,South
+District of Columbia,D.C.,DC,South
+Florida,Fla.,FL,South
+Georgia,Ga.,GA,South
+Hawaii,Hawaii,HI,West
+Idaho,Idaho,ID,West
+Illinois,Ill.,IL,Midwest
+Indiana,Ind.,IN,Midwest
+Iowa,Iowa,IA,Midwest
+Kansas,Kans.,KS,Midwest
+Kentucky,Ky.,KY,South
+Louisiana,La.,LA,South
+Maine,Maine,ME,Northeast
+Maryland,Md.,MD,South
+Massachusetts,Mass.,MA,Northeast
+Michigan,Mich.,MI,Midwest
+Minnesota,Minn.,MN,Midwest
+Mississippi,Miss.,MS,South
+Missouri,Mo.,MO,Midwest
+Montana,Mont.,MT,West
+Nebraska,Nebr.,NE,Midwest
+Nevada,Nev.,NV,West
+New Hampshire,N.H.,NH,Northeast
+New Jersey,N.J.,NJ,Northeast
+New Mexico,N.M.,NM,West
+New York,N.Y.,NY,Northeast
+North Carolina,N.C.,NC,South
+North Dakota,N.D.,ND,Midwest
+Ohio,Ohio,OH,Midwest
+Oklahoma,Okla.,OK,South
+Oregon,Ore.,OR,West
+Pennsylvania,Pa.,PA,Northeast
+Rhode Island,R.I.,RI,Northeast
+South Carolina,S.C.,SC,South
+South Dakota,S.D.,SD,Midwest
+Tennessee,Tenn.,TN,South
+Texas,Tex.,TX,South
+Utah,Utah,UT,West
+Vermont,Vt.,VT,Northeast
+Virginia,Va.,VA,South
+Washington,Wash.,WA,West
+West Virginia,W.Va.,WV,South
+Wisconsin,Wis.,WI,Midwest
+Wyoming,Wyo.,WY,West
